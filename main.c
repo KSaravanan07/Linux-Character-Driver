@@ -138,7 +138,7 @@ static ssize_t mychardev_write(struct file *file, const char __user *buf, size_t
 }
 
 MODULE_LICENSE("GPL");
-MODULE_AUTHOR("Oleg Kutkov <elenbert@gmail.com>");
+MODULE_AUTHOR("K Saravanan <cs22mtech12007@iith.ac.in>");
 
 module_init(mychardev_init);
 module_exit(mychardev_exit);
